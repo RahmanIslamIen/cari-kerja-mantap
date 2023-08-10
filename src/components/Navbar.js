@@ -6,13 +6,21 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4">
       <ul className="flex space-x-4 mx-6 p-2">
         <li>
-          <Link href="#" className="text-white m-2 hover:text-gray-300">
-            Cari kerja
+          <Link href="/" className="text-white m-2 hover:text-gray-300">
+            Home
           </Link>
         </li>
         <li>
           <Link
             href="#"
+            className="text-white m-2 hover:underline hover:bg-red-500 hover:p-2"
+          >
+            Cari kerja
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/perusahaan"
             className="text-white m-2 hover:underline hover:bg-red-500 hover:p-2"
           >
             Perusahan
