@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "author": {
+    "name": "Rahman Islam",
+    "github_profile": "https://github.com/RahmanIslamIen"
+  },
   "dependencies": {
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
